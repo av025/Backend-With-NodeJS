@@ -127,7 +127,15 @@ console.log(true || true); // Output : true
 //* NOT Logical Operator 
 // NOT Logical Operator just reverse the boolean value of our operand just viceversa. 
 console.log(!true); 
-console.log(!false); 
+console.log(!false);  
+
+// Operator Precedance 
+// In programming operators take the priority as compare to other which was called as Operator Precedance only 
+// In Mathematics We have BODMAS from which we solve our mathematical expression or equation so in programming also work similarly
+
+// Let see example of Operator Precedance 
+let score = 2 * 3 + 3 - 2 + (4 * 4); 
+console.log(score); 
 
 
 
