@@ -73,8 +73,61 @@ console.log(one); // Output 3
 
 //* Postfix Decreemnt Operator 
 one--; 
-console.log(one); // Output 2 
+console.log(one); // Output 2  
 
+//? Comparision or Relational Operators 
+// We use comparision or relational operators to perform relation or comparison of two operands  
+//* This comparision operator always return boolean value 
+
+//* Equal to operator's 
+// Equal to operators are also two type one was equality and strict equality 
+console.log( 5 == "5"); // This was equality operator which check only value not datatype  
+console.log(5 === 5); // This was Strict Equality operator which check both value and datatype   
+
+//* Not equal to operator's 
+// Not Eqaul to Operator are used to check if given operands are not equal to each other 
+console.log(6 != 7); // This not equality operator check only value not datatype 
+console.log(6 !== "6") // This was strict not equality operator it check both datatype and value 
+
+//* Greater than and Smaller than Operator 
+console.log( 5 > 4); // Here we are using greater than operator 
+console.log(4 < 5); // Here we are using smaller than operator  
+
+//* Greater than equal to & Smaller than equal to Operator 
+// Greater than equal Operations : In this Operation two condition check first was greater than and equal to 
+console.log( 5 >= 5); 
+console.log(5 >= 4); 
+console.log(5 >= 6); 
+
+// Smaller than equal Operations : In this Operation two condition check first smaller than and equal to 
+console.log( 5 <= 4); 
+console.log( 5 <= 5); 
+console.log(4 <= 5); 
+
+// Logical Operations 
+// There was logical operations also which help to create logical statement and expression in our program 
+// There are  Three type of Logical Operators 
+
+//* AND Logical Operator
+// In AND Logical Operator All the condition of Operands should be true than only it return true otherwise it return false as output.  
+// Let understand AND Logical Operator with Example : 
+console.log(true && false);  // Output : false 
+console.log(false && true); // Output : false 
+console.log(true && true);  // Output : true 
+console.log(false && false); // Output : false 
+
+//* OR Logical Operator 
+// In OR Logical Operator Only one operand should be true among all operands than it returns true if all operands was false than it return false as output. 
+// Let understand OR Operator with Example : 
+console.log(true || false); // Output : true 
+console.log(false || true); // Output : true 
+console.log(false || false); // Output : false 
+console.log(true || true); // Output : true 
+
+//* NOT Logical Operator 
+// NOT Logical Operator just reverse the boolean value of our operand just viceversa. 
+console.log(!true); 
+console.log(!false); 
 
 
 
