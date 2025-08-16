@@ -58,5 +58,54 @@ console.warn({name: "Aayush Vyas", email:"aayush25vyas@gmail.com"});
 // In object we store different types of data in the form of key-value pair for example 
 console.log({first_name: "Aayush", last_name: "vyas"}); 
 
+// Variable in Programming 
+//* Variables are empty container or bucket to store data in our program and variable also assign the address and identifier (Name of data) with the help of it we can use to recall data for our use and re-assign the value also to that memory address 
 
+//? In JS there was 3 ways to create variable 
 
+// var keyword 
+var score = 102;  //* This called intialization of variable 
+console.log(score); 
+
+var firstname;  //* This called decalarization of variable where we don't assign the value just declare variable 
+console.log(firstname) 
+
+//*  let re-assign the value to firstname 
+firstname = "Aayush"; 
+console.log(firstname) 
+
+//* var keyword was older keyword to create variables so there was flaw in it we can do re-declaration also 
+var firstname = "Kratik"; 
+console.log(firstname)  
+
+//? Nowadays after ES6 Version in which we have two keywords introduced to create variables let see both of them 
+
+// let keyword 
+let loggedIn = true; // Create variable with the help of let keyword 
+console.log(loggedIn); 
+
+// In let keyword we can re-assign the value 
+loggedIn = false; 
+console.log(loggedIn); 
+
+// But we can't re-decalre the variables of let keyword it give error to us can't re-declare the variable.  
+// let loggedIn = true  
+
+//* See example of creating variables of non-primitive datatypes also 
+var myArray = ["a","b", "c", "d"]
+console.log(myArray); 
+let myObject = {first: 1, second:2, third:3, fourth:4}; 
+console.log(myObject);  
+
+//? Similar like let another keyword introduce which was const 
+
+// const keyword 
+//* const keyword used to create constant in our program which value don't change through out program let understand with example 
+const PI_VALUE = 3.14; 
+console.log(PI_VALUE);  
+
+//* Two important thing for const keywords constant variable 
+// 1st. We can't just declare our constant variables it give error us... 
+// const SOME_THING;  --- It give error to us... 
+// 2nd. We can't re-assign value to constant because it was constant throughout the program 
+//   PI_VALUE = 3.1444;  --- It give error ti us... 
