@@ -9,3 +9,19 @@
 //     b. for in loop 
 //     c. forEach() loop 
 // 3rd. do while loop 
+
+//? Example of while loop in javascript 
+
+/** 
+ * Write While loop that calculates the sum of all numbers from 1 to 5 and stores the result in a variable sum 
+ */ 
+
+let number = 1; 
+let sum = 0; 
+
+while(number <= 5) {
+    sum = sum + number; 
+    number++; 
+}; 
+
+console.log(sum);
