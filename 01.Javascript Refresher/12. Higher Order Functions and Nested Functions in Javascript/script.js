@@ -20,13 +20,12 @@ console.log(tea);
  * Store and returned function in a variable named 'teaMaker' and call it with `green tea`
  */
 
-function createTeaMaker(teaType) {
-  function tea(teaType) {
-    return `Making ${teaType}`;
-  }
-
-  return tea(teaType);
+function createTeaMaker(name) {
+  return function tea(teaType) {
+    return ` ${name} making ${teaType}`;
+  };
 }
 
-const teaMaker = createTeaMaker("green tea"); 
-console.log(teaMaker);
+const teaMaker = createTeaMaker("Aayush");
+const result = teaMaker("green tea");
+console.log(result);
